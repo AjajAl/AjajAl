@@ -1,0 +1,47 @@
+# Home
+import '../../App.css';
+import HeroSection from '../HeroSection';
+
+import React from 'react'
+import Cards from '../Cards';
+import Footer from '../Footer';
+
+function Home() {
+    return (
+        <>
+        <HeroSection/>
+        <Cards/>
+        <Footer/>
+
+        </>
+    )
+}
+
+export default Home
+
+# product
+import React from 'react';
+import '../../App.css';
+
+export default function Products() {
+    return <h1 className='products'>PRODUCTS</h1>
+}
+
+
+# services
+
+import React from 'react';
+import '../../App.css';
+
+export default function Services() {
+    return <h1 className='services'>SERVICES</h1>
+}
+
+# sign up
+
+import React from 'react';
+import '../../App.css';
+
+export default function SignUp() {
+    return <h1 className='sign-up'>SIGN UP</h1>
+}
